@@ -106,7 +106,7 @@ p8 {
     font-size:15px;
   }
   .topnav-logo a {
-    font-size: 17px;
+    font-size: 19px;
     float:left;
     padding-top: 30px;
   }
@@ -221,8 +221,8 @@ h7 {
   text-align: center;
   color: white;
   text-decoration: none;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .footer-tab {
@@ -383,8 +383,16 @@ h4 {
   text-align: center;
   color: #182436;
   word-wrap: break-word;
-  padding-left: 100px;
-  padding-right: 100px;
+}
+
+
+h8 {
+  font-size: 20px;
+  text-align: center;
+  color: #182436;
+  word-wrap: break-word;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 p5 {
