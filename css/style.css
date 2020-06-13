@@ -152,7 +152,7 @@ p8 {
 @media screen and (max-width: 900px) {
 
   h7 {
-    font-size: 30px;
+    font-size: 24px;
     text-align: left;
     color: #182436;
     word-wrap: break-word;
@@ -207,10 +207,11 @@ p8 {
 }
 
 h7 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: left;
   color: #182436;
   word-wrap: break-word;
+  font-weight: bold;
 }
 
 
