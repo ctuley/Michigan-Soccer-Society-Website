@@ -137,7 +137,21 @@ p8 {
   width: 100%;
   height: 85%;
   opacity: 0.85;
+}
 
+@media screen and (max-width: 900px) {
+  .img-index {
+    width: 100%;
+    height: 75%;
+    opacity: 0.85;
+  }
+
+  h7 {
+    font-size: 30px;
+    text-align: left;
+    color: #182436;
+    word-wrap: break-word;
+  }
 }
 
 .index-container {
@@ -146,13 +160,7 @@ p8 {
   color: white;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
+ 
 .h4 {
   font-size: 50px;
   font-weight: bold;
