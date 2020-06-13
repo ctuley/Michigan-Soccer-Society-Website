@@ -134,9 +134,14 @@ p8 {
 /*********************** HOME ***********************/
 /****************************************************/
 .img-index {
-  width: 100%;
-  height: 85%;
-  opacity: 0.85;
+  width: 40%;
+  height: auto;
+  float:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 55px;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 900px) {
@@ -160,7 +165,7 @@ p8 {
   color: white;
 }
 
- 
+
 .h4 {
   font-size: 50px;
   font-weight: bold;
