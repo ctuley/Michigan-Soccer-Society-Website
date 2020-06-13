@@ -356,6 +356,10 @@ p3 {
   .contact-us-padding {
     padding-bottom: 75px;
   }
+
+  p3 {
+    font-size: 16px;
+  }
 }
 
 /****************************************************/
@@ -374,6 +378,60 @@ p6 {
   color: #182436;
 }
 
+/****************************************************/
+/******************** ARTICLES **********************/
+/****************************************************/
+h10 {
+  font-size: 30px;
+  text-align: left;
+  color: #182436;
+  word-wrap: break-word;
+  font-weight: bold;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+h11 {
+  font-size: 20px;
+  text-align: left;
+  color: #182436;
+  word-wrap: break-word;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+h12 {
+  font-size: 25px;
+  text-align: left;
+  color: #182436;
+  word-wrap: break-word;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+h13 {
+  font-size: 18px;
+  text-align: left;
+  color: #182436;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+}
+
+.img-responsive {
+  width: 100%;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .img-responsive {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 
 /****************************************************/
 /******************** ARTICLES **********************/
