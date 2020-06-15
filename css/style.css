@@ -152,7 +152,7 @@ p8 {
 @media screen and (max-width: 900px) {
 
   h7 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left;
     color: #182436;
     word-wrap: break-word;
@@ -516,8 +516,6 @@ h8 {
   font-size: 20px;
   text-align: center;
   color: #182436;
-  padding-left: 55px;
-  padding-right: 55px;
 }
 
 p5 {
@@ -556,8 +554,6 @@ p4 {
 .key-center {
   text-align: center;
   padding-bottom: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .articles-white a {
