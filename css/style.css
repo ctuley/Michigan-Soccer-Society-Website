@@ -705,6 +705,16 @@ p7 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.center-email{
+            width:200px;
+            height:200px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
+}
+
 .fa.fa-instagram {
   color: transparent;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
