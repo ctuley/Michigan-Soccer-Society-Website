@@ -4,6 +4,7 @@
 /****************************************************/
 html {
   background-color: #182436;
+  overflow-y: scroll;
 }
 
 body {
