@@ -7,6 +7,12 @@ html {
   overflow-y: scroll;
 }
 
+@media only screen and (max-width: 768px) {
+  .phone-width {
+    width: 100%;
+  }
+}
+
 body {
   color: white;
   font-family: 'Open Sans', sans-serif;
