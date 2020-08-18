@@ -1,0 +1,251 @@
+<html>
+<title>Collegiate Soccer Society</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Does Direct or Possession Soccer Work Better?" />
+<meta property="og:image" content="../blog-img/data-analysis-direct-possession-soccer/data-analysis-direct-possession-soccer-1.png" />
+
+
+<!-- LINKS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="../img/index/logo.png"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="../css/style.css">
+<script src="../js/navbar.js"></script>
+
+
+
+<body>
+<!---------------------------------------------------->
+<!-------------------- NAVBAR ------------------------>
+<!--------------------DO NOT EDIT--------------------->
+<!---------------------------------------------------->
+<section class="phone-width">
+<section>
+  <div class="topnav" id="myTopnav">
+    <div class="topnav-logo">
+      <a href="https://michigansoccersociety.com/">Collegiate Soccer Society</a>
+    </div>
+    <a href="../contact-us">Contact Us</a>
+    <a href="../our-team">Our Team</a>
+    <a href="../analytics">Analytics</a>
+    <a href="../blog">Blog</a>
+    <a href="../events">Events</a>
+    <a href="javascript:void(5);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+</section>
+
+<section>
+  <div class=class="articles-white-head"></div>
+</section>
+
+<!---------------------------------------------------->
+<!-------------------- CARDS_ ------------------------>
+<!--------------------DO NOT EDIT--------------------->
+<!---------------------------------------------------->
+<section>
+  <!--------------------DO NOT EDIT--------------------->
+  <div>
+    <h4 style="color: #182436; font-size:5px">-</h4>
+</section>
+
+<section class="articles-white">
+  <div class="articles-padding" style="line-height: 1.2;">
+    <br></br>
+    <br></br>
+    <h10>Does Direct or Possession Soccer Work Better?</h10>
+    <br></br>
+    <h11><i>by Mitchel Green - August 18, 2020</i></h11>
+    <br></br>
+    <h11>
+        <a href="https://www.linkedin.com/in/mitchel-green-182809191/" target="_blank" class="container1">
+            <i class="fa fa-linkedin-square" style="color:#6097d1"></i>
+        </a>
+      |
+        <i class="fa fa-envelope" style="color:#6097d1"></i>
+          <a href="mailto:mitchgr@umich.edu " style="color:#6097d1; text-decoration:none;">mitchgr@umich.edu </a>
+    </h11>
+    <br></br>
+  </div>
+</section>
+
+<section class="articles-white">
+  <div class="articles-padding" style="line-height: 1.2;">
+    <br></br>
+    <h13>
+      Tiki-Taka vs. Route One. It’s the debate that was perhaps best encapsulated in the El Clasico rivalry between Pep Guardiola’s Barcelona and Jose Mourinho’s Real Madrid from 2010-2012. The two best teams in the world went head to head for the Spanish and European crowns but took two different approaches in their attacking play. Barcelona took a slower, more patient, possession-based approach. Real Madrid took a quicker, more dynamic, direct approach. Despite the differences, each team put up gaudy attacking numbers - each team easily clearing 100 goals in most seasons - and you could easily make the argument that either approach was better than the other.
+    </h13>
+  </div>
+</section>
+
+<!-- 1st Row -------------------------------------------------->
+<section class="articles-white">
+  <div class="articles-padding" style="line-height: 1.2;">
+    <br></br>
+    <div class="row-articles">
+      <div class="column-articles">
+        <div class="card-articles">
+          <h13>
+            Both strategies were partly driven by the players at their managers’ disposals, but their later work has shown that Guardiola and Mourinho likely would have played this way anyway. The differences in their approach are most apparent when we compare how the clubs they managed played before, during, and after they were there. Bayern Munich, for example, were a more direct attacking team before Guardiola came in because it suited the players well, but Pep still came in and implemented a possession-based system similar to the one he used at Barcelona. The results were good enough to win three league titles, but no one year was better than the previous two before Guardiola arrived - not in points, goals scored, or goals conceded. Maybe it was because the players weren’t as suited for it as they were the direct approach, but in more general terms is playing direct more effective than playing a possession-based system for most teams? Let’s dig into the data to see what we can find.
+
+          <br></br>
+        </div>
+      </div>
+      <div class="column-articles">
+        <div class="card-articles">
+          <img src="../blog-img/data-analysis-direct-possession-soccer/data-analysis-direct-possession-soccer-2.jpg" class="img-responsive" style="width:100%; display: block; margin-left: auto;margin-right: auto;">
+          <p5 style="float:right;"><i>source: Manchester Evening News</i></p5>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 5th Row -------------------------------------------------->
+<section class="articles-white">
+  <div class="articles-padding" style="line-height: 1.2;">
+    <br></br>
+    <h10><b>Defining Direct vs. Possession</b></h10>
+    <br></br>
+    <h13>
+      Defining what teams are primarily direct attacking teams vs. possession attacking teams is difficult, especially when I don’t have all of the data I would like to have for my research. I’ll get into the details of some of the problems later, but the main issue is that there are teams that attack very directly that have a high amount of possession play because they are some of the top teams in their league and the opposition will typically sit deep and let them play with the ball. We’ll get into possible solutions for this problem later as well, but right now let’s set up what I’m defining as direct and possession soccer.
+    </h13>
+    <br></br>
+    <h13>
+      The main metric I’ve looked at here is passes per possession. The teams that rank highest in this metric are ones like Manchester City, Barcelona, and PSG - all teams known for their possession-based styles. The teams lowest in this metric are ones like Getafe, Burnley, and Augsburg - all teams associated with a deep-block direct approach. In the middle, it gets a bit more muddled because you have some teams that rank on the higher side of this metric that are usually associated with a more direct approach - Jose Mourinho’s Tottenham being the best example - but on the whole, I think passes per possession does a good job of separating the teams that play each style.
+    </h13>
+    <br></br>
+    <h13>
+      For the purposes of this exercise, we’ll take the mean passes per possession value of 4.16 and use that to categorize the teams. Teams below that threshold will be categorized as direct and teams above that threshold will be categorized as possession. This puts teams like Atletico Madrid, Wolfsburg, and Wolves on the direct side, while teams like Brighton, Villareal, and Hoffenheim find themselves on the possession side - all of whom fit their respective categories. Where the definition starts to break down a bit is when teams like Inter Milan and Tottenham - who many would consider more direct given their managers - find themselves in the possession category. Again, we’ll deal with teams like that later, but overall the threshold does a good job of placing teams in the correct camp.
+    </h13>
+    <br></br>
+    <h10><b>Analysis Of Top Five Leagues</b></h10>
+    <br></br>
+    <h13>
+      The first thing we’re going to look at - and the reason I wanted to take a look at this debate in the first place - is the relationship between possession-based approaches and non-penalty expected goals. I decided to look at expected goals instead of something tangible like actual goals because I really want to see if possession is a better approach for chance creation. Actual goals depend on so many things, like the finishing ability of the shot-taker or the quality of the opponent’s goalkeeper, that I think it would be more valuable to look at a metric showing the quality of the chances created rather than the end result.
+    </h13>
+    <br></br>
+    <h13>
+      Below you will see a scatterplot examining the relationship between these two variables. The plot shows a moderately strong correlation between passes per possession and non-penalty expected goals. Passes per possession explain a fair 57% of the variation in non-penalty expected goals. It’s not an unbelievably strong relationship between possession and expected goals, but there is one nonetheless.
+    </h13>
+    <br></br>
+    <img src="../blog-img/data-analysis-direct-possession-soccer/data-analysis-direct-possession-soccer-3.png" class="img-responsive" style="width:100%; display: block; margin-left: auto;margin-right: auto;">
+    <br></br>
+    <h13>
+      However, as we know correlation does not mean causation and it’s good to try and explain why there is a relationship if you can. In this case, I’m not entirely convinced that the teams higher in non-penalty expected goals are that way because they take a possession-based approach. Yes, these teams do often take a possession-based approach, but just looking at the names - like Manchester City, Barcelona, PSG - their propensity to play possession soccer may simply be because they are the best teams in Europe rather than because it gives them an advantage in chance creation. And because they are the best teams in Europe, they are typically going to create the most and the best chances of anyone.
+    </h13>
+    <br></br>
+    <h13>
+      To answer our question, I think it might be better to look at teams toward the line between direct and possession. These teams, though they may have a preferred way to play, often switch between a direct and a possession style depending on the game. I am going to look at the full seasons of two teams - Atletico Madrid and Norwich City - and to try and see if they create better chances taking a direct or possession-based approach. Why these two teams? I’m looking at Atletico Madrid because they are a team with equivalent talent to a lot of the teams higher on the possession scale, but they prefer to play a more direct game. Likewise, I’m looking at Norwich City because they are a team on the lower end of the talent spectrum in the top five leagues, but they do try and play possession soccer.
+    </h13>
+    <br></br>
+    <h10><b>Analysis of Atletico Madrid</b></h10>
+    <br></br>
+    <h13>
+      Under Diego Simeone, Atletico Madrid have gone from plucky underdogs taking down the big boys by playing direct, counter attacking soccer to one of the big boys still playing the same direct, counter attacking soccer. If you watch the Spanish club now, not a ton has changed in their general style, but they do have a larger amount of talent that could all do well playing a possession game. The likes of Joao Felix and Thomas Partey could easily slot into a team playing possession soccer and perform just as well, if not better. The plus side to having players like this is Simeone can change up the approach if needed, depending on the opponent and/or situation. This season, he’s done that plenty, at least enough for us to compare how Atletico perform on offense using each approach. Looking at the scatterplot below, there is next to no correlation between passes per possession and non-penalty expected goals in Atletico Madrid’s 38 La Liga games this season. This may be due to personnel on the field during some of these games or something the opposition is doing, but overall there doesn’t seem to be much difference in Atletico’s attacking output when they go direct vs. when they go possession.
+    </h13>
+    <br></br>
+    <img src="../blog-img/data-analysis-direct-possession-soccer/data-analysis-direct-possession-soccer-4.png" class="img-responsive" style="width:100%; display: block; margin-left: auto;margin-right: auto;">
+    <br></br>
+    <h10><b>Analysis of Norwich City</b></h10>
+    <br></br>
+    <h13>
+      Norwich City was the most hyped promoted team coming into the Premier League this past season by a long way. People were excited to see their young, budding talents play a very open, possession-based game and a lot of people predicted them to stay up because of their approach. Things did not go quite as planned. Norwich were relegated after finishing dead last and numerous times this season the Canaries were forced to go away from their favored approach, be it because of injury or the strength of the opposition. However, like Atletico Madrid, there was almost no correlation at all between their approach and their attacking output. They weren’t a particularly strong team, so their xG was not anticipated to be high against teams like Manchester City when they were much more likely to play direct, but even when they were super possession focused against teams like Brighton and Newcastle, their expected goals were not much different than against the top sides.
+    </h13>
+    <br></br>
+    <img src="../blog-img/data-analysis-direct-possession-soccer/data-analysis-direct-possession-soccer-5.png" class="img-responsive" style="width:100%; display: block; margin-left: auto;margin-right: auto;">
+    <br></br>
+    <h10><b>Problems Faced</b></h10>
+    <br></br>
+    <h13>
+      Before I get into my conclusion, I want to talk about some of the issues I faced when doing this analysis. Most of the problems I had were a lack of available data and how that influenced the definition of direct vs. possession approaches. I mentioned earlier teams like Inter Milan and Tottenham that have managers most people would say take a direct approach, yet they fall in the possession category because they end up playing with a lot of possession due to being some of the top teams in their league. I think a way this could have been improved upon would be looking specifically possessions that end in shots and using the number of passes per those possessions to define direct vs. possession. I could’ve also used something like percentage of shots from moves of less than five passes or more than 8-10 passes to determine which category a team fell into. Unfortunately, I did not have access to this kind of data, so I was forced to use what I could find for free. Although I think I did gain some insight from what I had, I have no doubt that more data would have improved my research.
+    </h13>
+    <br></br>
+    <h10><b>Conclusion</b></h10>
+    <br></br>
+    <h13>
+      So where does all of this leave us? Are the Cruyffians right in their stance that a possession-based game is the only correct way to play? Or was the pragmatist cult of Mourinho right all along? Well… it’s inconclusive. If we’re to go by my findings, it seems that there actually is no right way to play, that it doesn’t matter whether you attack in a direct or possession-based manner. There is a moderately strong relationship between a possession-based approach and expected goals across all teams in the top five leagues, but this could be attributed to the stronger teams typically playing with a lot of possession and creating a lot of chances simply because they are the best. And if we look at the results of singular teams that switch between each approach, there doesn’t seem to be any relationship at all between approach and expected goals. But, as I mentioned, I didn’t quite have all the data available to me that I wanted in order to nail down my definition of each approach. Had I been able to use that data, I may have been able to reach a conclusion on the matter. Perhaps that data will become available to me at some point and I’ll be able to return to this debate. Until then, teams might just want to use what best suits their players.
+    </h13>
+  </div>
+</section>
+
+<section class="articles-white"></section>
+<section class="articles-white"></section>
+<section class="articles-white"></section>
+<section class="articles-white"></section>
+<section class="articles-white"></section>
+
+
+</body>
+
+
+<!---------------------------------------------------->
+<!-------------------- FOOTER ------------------------>
+<!--------------------DO NOT EDIT--------------------->
+<!---------------------------------------------------->
+<!---------------------------------------------------->
+<footer>
+  <section class="articles-white">
+    <br></br>
+    <br></br>
+    <div class="footer">
+        <p2 style="color: #182436;"><b>Collegiate Soccer Society</b></p2>
+        <br></br>
+
+
+          <!-- Begin Mailchimp Signup Form -->
+          <link rel="stylesheet" href="css/style.css">
+          <style type="text/css">
+          	#mc_embed_signup{background:white; clear:left; font-family: 'Open Sans', sans-serif; }
+          	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+          	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+          <form action="https://michigansoccersociety.us10.list-manage.com/subscribe/post?u=5455923db7a08654c31b76160&amp;id=d97b94057e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+          	<label for="mce-EMAIL"><p2 style="color: #182436;"><b>Sign up to recieve weekly newsletters about the club and anything soccer!</b></p2></label>
+            <br></br>
+          	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required style="text-align:center;">
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5455923db7a08654c31b76160_d97b94057e" tabindex="-1" value=""></div>
+              <br></br>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+          </form>
+          </div>
+          <!--End mc_embed_signup-->
+
+          <p2 style="color: #182436;">
+            <div>
+              <a href="#" target="_blank">
+                <p2 style="color: #182436;"><u>LinkedIn</u></p2>
+              </a>
+                <span class="footer-tab">&#8226;</span>
+              <a href="https://twitter.com/msoccersociety" target="_blank">
+                <p2 style="color: #182436;"><u>Twitter</u></p2>
+              </a>
+                <span class="footer-tab">&#8226;</span>
+              <a href="https://www.instagram.com/michsoccersociety/" target="_blank">
+                <p2 style="color: #182436;"><u>Instagram</u></p2>
+              </a>
+            </div>
+          </p2>
+
+          <br></br>
+
+        <p2 style="color: #182436;">© 2020 Collegiate Soccer Society. All Rights Reserved.</p2>
+
+
+    </div>
+    <br></br>
+  </section>
+</footer>
+</section>
+
+</html>
